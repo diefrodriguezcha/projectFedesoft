@@ -1,0 +1,126 @@
+@font-face{
+    font-family: expressLight;
+    src: url('./fonts/ExpresswayCondensedLight.otf');
+}
+
+@font-face{
+    font-family: expressBold;
+    src: url('./fonts/ExpresswayCondensedBold.ttf');
+}
+
+
+.navbar {
+    color: white;
+    background-color: #961432;    
+}
+
+.navbar > .navbar-header {
+    width: 100px;
+}
+
+.articles-row {
+    height: 500px;
+    margin: 10px; 
+}
+
+.section-title{
+    font-family: expressLight;
+    text-transform: uppercase;
+    color: #961432;
+    font-size: 50px;
+}
+
+.section-title-line{    
+    border-bottom: 3px solid #961432;
+    display: inline-block;
+    width: 85%;
+}
+
+.articles-row button {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.article-right {
+    height: 50%;
+}
+
+.articles-row .col-md-6 img {
+    width: 100%;    
+}
+
+a:hover {
+    color: yellow;
+}
+
+.score-board {
+    color: white;
+    background-color: #961432;
+    font-size: 30px;
+    font-weight: 100;
+    height: 180px;                
+}
+
+.score-board .marker {
+    text-align: center;    
+    font-weight: 700;    
+}
+
+.score-board .tournament{
+    font-family: expressBold;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.score-board .details{
+    font-family: expressLight;
+    font-weight: 50;
+}
+
+.score-board .team-name{
+    font-weight: 700;    
+    text-transform: uppercase;
+    font-size: 0.4em;
+    text-align: center;
+    
+}
+
+.score-board .context {
+    text-align: right;    
+    line-height: 0.9;
+}
+
+.vertical-line-left{
+    border-left: 1px solid white;
+}
+
+.vertical-line-right{
+    border-right: 1px solid white;
+}
+
+.score-board .teams{
+    text-align: center;
+}
+.score-board .teams img{
+    width: 70%;
+}
+
+.img-carousel {
+    height: 400px;
+    width: 200px;
+}
+
+.img-carousel img {
+    width: 100%;
+    overflow: hidden;
+}
+
+button {
+    color: white;
+    background-color: #961432;
+    font-family: expressBold;
+    text-transform: uppercase;
+    font-weight: 500;
+}
